@@ -12,38 +12,63 @@ header{
 .paragraph{
     text-align: center;
     font-size: 20px;
+    color: #6e6e6e;
+    max-width: 1000px;
+    min-width: 500px;
+    margin: auto;
 }
 .input{
     margin: auto;
     margin-top: 50px;
     text-align: center;
     border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    height: 200px;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+    height: 240px;
     width: 600px;
+
 }
-.baf{
-    margin:100px ;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    height: 140px;
-    width: 400px;
-}
+
 input{
+    font-size: 17px;
     margin-top: 50px;
-    width: 400px ;
-    height: 40px;
+    width: 520px ;
+    height: 50px;
     border-radius: 6px;
-    border: 1px solid #807e7e
+    border: 1px solid #cfcfcf ;
+    background-color: #f0f0f0;
+    transition: background-color 0.3 ease-in-out;
+}
+
+::placeholder {
+    text-align: center; 
+    font-weight: 500;
+    font-size:medium;
+ }
+
+input:focus{
+    background-color: white;
+    outline: none;
+}
+input:focus::placeholder{
+    color: transparent;
 }
 button{
     font-size: 15px;
     color: aliceblue;
     background-color: rgb(0, 119, 255);
     border-style: none;
-    border-radius: 16px;
+    border-radius: 6px;
     margin-top: 16px;
     margin-bottom: 16px;
-    height: 35px;
-    width: 220px;
+    height: 50px;
+    width: 520px;
+    cursor: pointer;
+}
+button:hover{
+    width:522px ;
+    background-color:rgb(48, 155, 255) ;
+    transition: 0.1s;
+}
+.resureP{
+    color: #777777;
 }
